@@ -8,7 +8,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 mnist = input_data.read_data_sets("./mnist",one_hot=True)
 
 # batch size
-batch = 100
+batch = 1002
 
 # n batch
 n_batch = mnist.train.num_examples // batch
