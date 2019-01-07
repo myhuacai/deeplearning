@@ -5,7 +5,7 @@
 图像预处理完整样例
 '''
 
-import  tensorflow as tf
+import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
 
