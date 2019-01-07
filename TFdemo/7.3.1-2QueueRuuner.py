@@ -41,3 +41,5 @@ with tf.Session() as sess:
         print(sess.run(out_tensor)[0])
     coord.request_stop()
     coord.join(threads)
+
+# sss test
