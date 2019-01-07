@@ -1,0 +1,8 @@
+embeddings {
+  tensor_name: "embedding:0"
+  metadata_path: "E:/pythonproject/zoubo/TFdemo/projector/data/mnist_10k_sprite.png"
+  sprite {
+    single_image_dim: 28
+    single_image_dim: 28
+  }
+}
