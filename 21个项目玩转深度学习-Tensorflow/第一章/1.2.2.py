@@ -6,3 +6,5 @@
 # @GitHub : https://github.com/myhuacai/deeplearning.git
 
 import tensorflow as tf
+import numpy as np
+
