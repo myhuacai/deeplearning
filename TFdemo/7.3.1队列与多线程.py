@@ -23,3 +23,4 @@ with tf.Session() as sess:
         v,_ = sess.run([x,q_inc])
         # 打印元素的取值
         print(v)
+# dfsdfds
