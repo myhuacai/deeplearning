@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec97dea-64a7-4aba-b539-b2f7feefe339" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/TFdemo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFdemo/7.3.2-2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFdemo/7.3.2输入文件队列.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFdemo/7.3.4-组合训练数据.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/7.3.4输入数据处理框架.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TFdemo/7.3.1-2QueueRuuner.py" afterPath="$PROJECT_DIR$/TFdemo/7.3.1-2QueueRuuner.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TFdemo/7.3.4-组合训练数据.py" afterPath="$PROJECT_DIR$/TFdemo/7.3.4-组合训练数据.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,9 +31,12 @@
       <file leaf-file-name="7.3.1-2QueueRuuner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TFdemo/7.3.1-2QueueRuuner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
-              <folding />
+            <state relative-caret-position="847">
+              <caret line="55" column="3" lean-forward="false" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+              <folding>
+                <marker date="1546912768534" expanded="true" signature="849:1118" ph="..." />
+                <marker date="1546912768534" expanded="true" signature="1059:1118" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/TFdemo/7.3.2输入文件队列.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="79">
-              <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+              <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -56,18 +54,28 @@
       <file leaf-file-name="7.3.2-2.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TFdemo/7.3.2-2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            <state relative-caret-position="288">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="7.3.4-组合训练数据.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="7.3.4-组合训练数据.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TFdemo/7.3.4-组合训练数据.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="295">
+              <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.3.4输入数据处理框架.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/7.3.4输入数据处理框架.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -78,7 +86,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
               <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding />
+              <folding>
+                <marker date="1546912746473" expanded="true" signature="141:259" ph="'''...'''" />
+                <marker date="1546912746473" expanded="true" signature="304:1535" ph="..." />
+                <marker date="1546912746473" expanded="true" signature="332:596" ph="..." />
+                <marker date="1546912746473" expanded="true" signature="626:894" ph="..." />
+                <marker date="1546912746473" expanded="true" signature="924:1216" ph="..." />
+                <marker date="1546912746473" expanded="true" signature="1226:1492" ph="..." />
+                <marker date="1546912746473" expanded="true" signature="1588:2397" ph="..." />
+                <marker date="1546912746473" expanded="true" signature="2490:2782" ph="..." />
+                <marker date="1546912746473" expanded="true" signature="2664:2782" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,6 +150,7 @@
         <option value="$PROJECT_DIR$/TFdemo/7.3.2输入文件队列.py" />
         <option value="$PROJECT_DIR$/TFdemo/7.3.2-2.py" />
         <option value="$PROJECT_DIR$/TFdemo/7.3.4-组合训练数据.py" />
+        <option value="$PROJECT_DIR$/7.3.4输入数据处理框架.py" />
       </list>
     </option>
   </component>
@@ -179,15 +198,15 @@
               <option name="myItemId" value="TFdemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TFdemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="TFdemo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TFdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TFdemo" />
@@ -227,25 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.7.3.2-2">
-    <configuration default="false" name="7.3.1队列与多线程" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFdemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TFdemo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFdemo/7.3.1队列与多线程.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.7.3.4-组合训练数据">
     <configuration default="false" name="7.3.1-2多线程协同管理" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,6 +314,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFdemo" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFdemo/7.3.2-2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="7.3.4-组合训练数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFdemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TFdemo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFdemo/7.3.4-组合训练数据.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -402,19 +421,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.7.2.2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.7.3.1队列与多线程" />
-      <item index="2" class="java.lang.String" itemvalue="Python.7.3.1-2多线程协同管理" />
-      <item index="3" class="java.lang.String" itemvalue="Python.7.3.1-2QueueRuuner" />
-      <item index="4" class="java.lang.String" itemvalue="Python.7.3.2输入文件队列" />
-      <item index="5" class="java.lang.String" itemvalue="Python.7.3.2-2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.7.3.1-2多线程协同管理" />
+      <item index="2" class="java.lang.String" itemvalue="Python.7.3.1-2QueueRuuner" />
+      <item index="3" class="java.lang.String" itemvalue="Python.7.3.2输入文件队列" />
+      <item index="4" class="java.lang.String" itemvalue="Python.7.3.2-2" />
+      <item index="5" class="java.lang.String" itemvalue="Python.7.3.4-组合训练数据" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.7.3.2-2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.7.3.2输入文件队列" />
-        <item index="2" class="java.lang.String" itemvalue="Python.7.3.1-2QueueRuuner" />
-        <item index="3" class="java.lang.String" itemvalue="Python.7.3.1-2多线程协同管理" />
-        <item index="4" class="java.lang.String" itemvalue="Python.7.3.1队列与多线程" />
+        <item index="0" class="java.lang.String" itemvalue="Python.7.3.4-组合训练数据" />
+        <item index="1" class="java.lang.String" itemvalue="Python.7.3.2-2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.7.3.2输入文件队列" />
+        <item index="3" class="java.lang.String" itemvalue="Python.7.3.1-2QueueRuuner" />
+        <item index="4" class="java.lang.String" itemvalue="Python.7.3.1-2多线程协同管理" />
       </list>
     </recent_temporary>
   </component>
@@ -474,7 +493,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546852546722</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="7.3">
+      <created>1546912708988</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546912708988</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -521,7 +547,8 @@
       <path value="$PROJECT_DIR$/deeplearning" />
     </ignored-roots>
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="7.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -533,13 +560,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python/Python36/Lib/site-packages/tensorflow/python/framework/errors_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="530" column="0" lean-forward="false" selection-start-line="530" selection-start-column="0" selection-end-line="530" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python/Python36/Lib/site-packages/tensorflow/python/lib/io/file_io.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -700,15 +720,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
+          <folding>
+            <marker date="1546912746473" expanded="true" signature="141:259" ph="'''...'''" />
+            <marker date="1546912746473" expanded="true" signature="304:1535" ph="..." />
+            <marker date="1546912746473" expanded="true" signature="332:596" ph="..." />
+            <marker date="1546912746473" expanded="true" signature="626:894" ph="..." />
+            <marker date="1546912746473" expanded="true" signature="924:1216" ph="..." />
+            <marker date="1546912746473" expanded="true" signature="1226:1492" ph="..." />
+            <marker date="1546912746473" expanded="true" signature="1588:2397" ph="..." />
+            <marker date="1546912746473" expanded="true" signature="2490:2782" ph="..." />
+            <marker date="1546912746473" expanded="true" signature="2664:2782" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TFdemo/7.3.1-2QueueRuuner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="847">
+          <caret line="55" column="3" lean-forward="false" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+          <folding>
+            <marker date="1546912768534" expanded="true" signature="849:1118" ph="..." />
+            <marker date="1546912768534" expanded="true" signature="1059:1118" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -739,7 +772,7 @@
     <entry file="file://$PROJECT_DIR$/TFdemo/7.3.2输入文件队列.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -754,16 +787,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TFdemo/7.3.2-2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        <state relative-caret-position="288">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TFdemo/7.3.4-组合训练数据.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="295">
+          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/7.3.4输入数据处理框架.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
