@@ -1,0 +1,8 @@
+1.更新TensorFlow到更新的版本
+pip install --user --upgrade tensorflow==1.8
+
+
+
+
+
+
