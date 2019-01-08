@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ec97dea-64a7-4aba-b539-b2f7feefe339" name="Default" comment="" />
+    <list default="true" id="2ec97dea-64a7-4aba-b539-b2f7feefe339" name="Default" comment="7.3">
+      <change afterPath="$PROJECT_DIR$/TFdemo/7.4.1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFdemo/data/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TFdemo/data/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TFdemo/7.1.2TFRecord样例程序.py" beforeDir="false" afterPath="$PROJECT_DIR$/TFdemo/7.1.2TFRecord样例程序.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,12 +24,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="3" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="824" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="824" />
         </counts>
       </usages-collector>
     </session>
@@ -33,10 +51,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TFdemo/7.1.2TFRecord样例程序.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="-125">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#46#69#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TFdemo/7.4.1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+              <folding>
+                <marker date="1546954021357" expanded="true" signature="1096:1411" ph="..." />
               </folding>
             </state>
           </provider>
@@ -60,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TFdemo/7.3.4-组合训练数据.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-430">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="350">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -87,6 +117,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -119,12 +150,13 @@
         <option value="$PROJECT_DIR$/TFdemo/7.3.4-组合训练数据.py" />
         <option value="$PROJECT_DIR$/7.3.4输入数据处理框架.py" />
         <option value="$PROJECT_DIR$/TFdemo/7.3.2输入文件队列.py" />
-        <option value="$PROJECT_DIR$/TFdemo/7.1.2TFRecord样例程序.py" />
         <option value="$PROJECT_DIR$/TFdemo/7.1.2-2解析TFRecord文件.py" />
+        <option value="$PROJECT_DIR$/TFdemo/7.1.2TFRecord样例程序.py" />
+        <option value="$PROJECT_DIR$/TFdemo/7.4.1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1920" />
     <option name="height" value="996" />
   </component>
@@ -143,11 +175,6 @@
               <item name="deeplearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="deeplearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deeplearning" type="462c0819:PsiDirectoryNode" />
-              <item name="TFdemo" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -160,15 +187,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pythonproject\zoubo\TFdemo\TFdemo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mygithub\deeplearning\TFdemo\data" />
       <recent name="E:\pythonproject\zoubo\TFdemo\data" />
       <recent name="E:\pythonproject\zoubo\TFdemo\deeplearning\tensorflow" />
       <recent name="E:\pythonproject\zoubo\TFdemo\data\ptb" />
       <recent name="E:\pythonproject\zoubo\TFdemo" />
-      <recent name="E:\pythonproject\zoubo\TFdemo\word2vector" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\pythonproject\zoubo\TFdemo\TFdemo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -183,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.7.1.2-2解析TFRecord文件">
+  <component name="RunManager" selected="Python.7.4.1">
     <configuration name="7.1.2-2解析TFRecord文件" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TFdemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,27 +295,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="7.3.2输入文件队列" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TFdemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFdemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFdemo/7.3.2输入文件队列.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="7.3.4-组合训练数据" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TFdemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -302,6 +308,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFdemo/7.3.4-组合训练数据.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="7.4.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TFdemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFdemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFdemo/7.4.1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -326,19 +353,19 @@
     </configuration>
     <list>
       <item itemvalue="Python.7.2.2" />
-      <item itemvalue="Python.7.3.2输入文件队列" />
       <item itemvalue="Python.7.3.2-2" />
       <item itemvalue="Python.7.3.4-组合训练数据" />
       <item itemvalue="Python.7.1.2TFRecord样例程序" />
       <item itemvalue="Python.7.1.2-2解析TFRecord文件" />
+      <item itemvalue="Python.7.4.1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.7.4.1" />
         <item itemvalue="Python.7.1.2-2解析TFRecord文件" />
         <item itemvalue="Python.7.1.2TFRecord样例程序" />
         <item itemvalue="Python.7.3.4-组合训练数据" />
         <item itemvalue="Python.7.3.2-2" />
-        <item itemvalue="Python.7.3.2输入文件队列" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546915890027</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="7.3">
+      <created>1546950308267</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546950308267</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -422,14 +456,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="996" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17693943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17544784" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27967098" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2787068" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3983549" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -459,9 +493,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="7.3" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/Python/Python36/Lib/site-packages/tensorflow/contrib/eager/python/examples/rnn_ptb/rnn_ptb.py" />
-    <entry file="file://D:/Python/Python36/Lib/site-packages/tensorflow/contrib/rnn/python/ops/core_rnn_cell.py" />
-    <entry file="file://D:/Python/Python36/Lib/site-packages/tensorflow/python/framework/ops.py" />
     <entry file="file://$PROJECT_DIR$/10-1验证码生成.py" />
     <entry file="file://$PROJECT_DIR$/word2vector/w2v.py" />
     <entry file="file://$PROJECT_DIR$/7-1第六周作业.py" />
@@ -553,16 +584,6 @@
     <entry file="file://$PROJECT_DIR$/TFdemo/data/output">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/TFdemo/7.1.2TFRecord样例程序.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="e#46#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TFdemo/7.1.2-2解析TFRecord文件.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="925">
@@ -579,8 +600,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TFdemo/7.3.4-组合训练数据.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="350">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFdemo/7.1.2TFRecord样例程序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#46#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFdemo/data/2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/mysoft/Anaconda3/Lib/site-packages/tensorflow/python/data/ops/readers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="34" column="33" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFdemo/7.4.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="51" column="32" lean-forward="true" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <folding>
+            <marker date="1546954021357" expanded="true" signature="1096:1411" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
