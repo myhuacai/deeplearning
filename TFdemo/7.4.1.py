@@ -51,11 +51,71 @@ import tensorflow as tf
 '''
 读取图像文件中的数据集，图像输入数据一般保存在TFRecord中
 '''
+# import tensorflow as tf
+#
+# # 解析一个TFRecord的方法。record是从文件中读取的一个样例。
+# def parser(record):
+#     features = tf.parse_single_example(record,
+#                                        features={
+#                                            'feature1':tf.FixedLenFeature([],tf.int64),
+#                                            'feature2': tf.FixedLenFeature([], tf.int64)
+#                                        })
+#     return features['feature1'],features['feature2']
+# # 从TFRecord文件创建数据集
+# input_files = ["./input_file1","./input_file2"]
+# dataset = tf.data.TFRecordDataset(input_files)
+# # map()函数表示对数据集中的每一条数据进行调用响应的方法。使用TFRecordDataset读出的是二进制的数据，
+# # 这里需要通过map()来调用parser()对二进制数据进行解析，类似的，map()函数也可以用来完成其他的数据预处理工作
+# dataset = dataset.map(parser)
+#
+# # 定义遍历数据集的迭代器,遍历数据集。在使用make_one_shot_iterator()时，数据集的所有参数必须已经确定，
+# # 因此make_one_shot_iterator()不需要特别的初始化过程
+# iterator = dataset.make_one_shot_iterator()
+#
+# # feat1,feat2是parser()返回的一维int64型张量，可以作为输入用于进一步的计算
+# feat1,feat2 = iterator.get_next()
+#
+# with tf.Session() as sess:
+#     for i in range(10):
+#         f1,f2 = sess.run([feat1,feat2])
+
+'''
+使用initializable_iterator来动态初始化数据集
+'''
 import tensorflow as tf
 
+# 解析一个TFRecord的方法，同上
 def parser(record):
     features = tf.parse_single_example(record,
                                        features={
                                            'feature1':tf.FixedLenFeature([],tf.int64),
                                            'feature2': tf.FixedLenFeature([], tf.int64)
                                        })
+    return features['feature1'],features['feature2']
+
+# 从TFRecord文件创建数据集，具体文件路径是一个placeholder，稍后再提供具体路径
+input_files = tf.placeholder(tf.string)
+dataset = tf.data.TFRecordDataset(input_files)
+dataset = dataset.map(parser)
+
+# 定义遍历dataset的initializable_iterator
+iterator = dataset.make_initializable_iterator()
+
+feat1,feat2 = iterator.get_next()
+
+with tf.Session() as sess:
+    # 初始化iterator，并给出input_files的值
+    sess.run(iterator.initializer,feed_dict={
+        input_files:["./data/file1","./data/file2"]
+    })
+    # 遍历所有数据一个epoch。当遍历结束时，程序会抛出OutOfRangeError
+    while True:
+        try:
+            sess.run([feat1,feat2])
+        except tf.errors.OutOfRangeError:
+            break
+
+
+
+
+
