@@ -24,7 +24,7 @@ sorted_word_to_cnt = sorted(counter.items(),key=itemgetter(1),reverse=True)
 sorted_words = [x[0] for x in sorted_word_to_cnt]
 
 sorted_words = ['<eos>'] + sorted_words # + ['<eos>']
-#dddddddddddddddddddd
+
 # sorted_words = ['<eos>','<unk>','<sos>'] + sorted_words
 # if len(sorted_words) > 10000:
 #     sorted_words = sorted_words[:10000]
