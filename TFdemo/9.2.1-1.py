@@ -43,9 +43,9 @@ from operator import itemgetter
 
 import sys
 
-RAW_DATA = "./data/ptb/ptb.train.txt"
+RAW_DATA = "./data/ptb/ptb.valid.txt"
 VOCAB = './data/ptb/ptb.vocab'
-OUTPUT_DATA = "./data/ptb/ptb.train"
+OUTPUT_DATA = "./data/ptb/ptb.valid"
 
 # 读取词汇表，并建立词汇到单词编号的映射
 with codecs.open(VOCAB,'r','utf-8') as f_vocab:
