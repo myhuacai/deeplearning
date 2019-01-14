@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec97dea-64a7-4aba-b539-b2f7feefe339" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFdemo/9.2.3-神经语言模型.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFdemo/data/dog1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFdemo/data/dog2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFdemo/data/dog3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/TFdemo/data/dog4.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TFdemo/9.2.1-1.py" afterPath="$PROJECT_DIR$/TFdemo/9.2.1-1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TFdemo/7.2.1.py" afterPath="$PROJECT_DIR$/TFdemo/7.2.1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TFdemo/7.2.2.py" afterPath="$PROJECT_DIR$/TFdemo/7.2.2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TFdemo/data/output" afterPath="$PROJECT_DIR$/TFdemo/data/output" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,14 +55,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="9.2.3-神经语言模型.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="9.2.3-神经语言模型.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TFdemo/9.2.3-神经语言模型.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2448">
-              <caret line="102" column="20" lean-forward="true" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+            <state relative-caret-position="336">
+              <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="e#48#71#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.2.1.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TFdemo/7.2.1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-792">
+              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding>
+                <element signature="e#46#78#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="7.2.2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TFdemo/7.2.2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+              <folding>
+                <element signature="e#65#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="array_ops.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/tensorflow/python/ops/array_ops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="541" column="34" lean-forward="true" selection-start-line="541" selection-start-column="34" selection-end-line="541" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="image_ops_impl.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/tensorflow/python/ops/image_ops_impl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="1490" column="67" lean-forward="false" selection-start-line="1490" selection-start-column="5" selection-end-line="1490" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,6 +147,8 @@
         <option value="$PROJECT_DIR$/TFdemo/9.2.1-1.py" />
         <option value="$PROJECT_DIR$/TFdemo/9.2.3.py" />
         <option value="$PROJECT_DIR$/TFdemo/9.2.3-神经语言模型.py" />
+        <option value="$PROJECT_DIR$/TFdemo/7.2.2.py" />
+        <option value="$PROJECT_DIR$/TFdemo/7.2.1.py" />
       </list>
     </option>
   </component>
@@ -125,6 +176,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -153,8 +206,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,15 +213,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\pythonproject\zoubo\TFdemo\TFdemo" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\pythonproject\zoubo\TFdemo\TFdemo\data" />
       <recent name="D:\mygithub\deeplearning\TFdemo\data" />
       <recent name="E:\pythonproject\zoubo\TFdemo\data" />
       <recent name="E:\pythonproject\zoubo\TFdemo\deeplearning\tensorflow" />
       <recent name="E:\pythonproject\zoubo\TFdemo\data\ptb" />
-      <recent name="E:\pythonproject\zoubo\TFdemo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pythonproject\zoubo\TFdemo\TFdemo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -185,61 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.9.2.3-神经语言模型">
-    <configuration default="false" name="8.4-RNN-demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFdemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TFdemo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFdemo/8.4-RNN-demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="9.2.1-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFdemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TFdemo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFdemo/9.2.1-1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="9.2.2-PTB数据的batching方法" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFdemo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TFdemo" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFdemo/9.2.2-PTB数据的batching方法.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.7.2.1">
     <configuration default="false" name="9.2.3-神经语言模型" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -271,6 +268,60 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFdemo" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFdemo/9.2.3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="7.2.1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFdemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TFdemo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFdemo/7.2.1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="7.2.2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TFdemo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TFdemo" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TFdemo/7.2.2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="image_ops_impl" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/tensorflow/python/ops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TFdemo" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/tensorflow/python/ops/image_ops_impl.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -360,19 +411,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.7.2.2" />
-      <item index="1" class="java.lang.String" itemvalue="Python.8.4-RNN-demo" />
-      <item index="2" class="java.lang.String" itemvalue="Python.9.2.1-1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.9.2.2-PTB数据的batching方法" />
-      <item index="4" class="java.lang.String" itemvalue="Python.9.2.3-神经语言模型" />
-      <item index="5" class="java.lang.String" itemvalue="Python.9.2.3" />
+      <item index="1" class="java.lang.String" itemvalue="Python.9.2.3-神经语言模型" />
+      <item index="2" class="java.lang.String" itemvalue="Python.9.2.3" />
+      <item index="3" class="java.lang.String" itemvalue="Python.7.2.1" />
+      <item index="4" class="java.lang.String" itemvalue="Python.7.2.2 (1)" />
+      <item index="5" class="java.lang.String" itemvalue="Python.image_ops_impl" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.9.2.3-神经语言模型" />
-        <item index="1" class="java.lang.String" itemvalue="Python.9.2.3" />
-        <item index="2" class="java.lang.String" itemvalue="Python.9.2.1-1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.9.2.2-PTB数据的batching方法" />
-        <item index="4" class="java.lang.String" itemvalue="Python.8.4-RNN-demo" />
+        <item index="0" class="java.lang.String" itemvalue="Python.7.2.1" />
+        <item index="1" class="java.lang.String" itemvalue="Python.7.2.2 (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.image_ops_impl" />
+        <item index="3" class="java.lang.String" itemvalue="Python.9.2.3-神经语言模型" />
+        <item index="4" class="java.lang.String" itemvalue="Python.9.2.3" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547095500702</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="自然语言处理9.2，神经语言模型">
+      <created>1547189895831</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1547189895831</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -509,11 +567,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1004" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18317358" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18477103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49476135" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20023283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32945284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -570,7 +629,8 @@
     <MESSAGE value="7.3" />
     <MESSAGE value="rnn8.1" />
     <MESSAGE value="rnn8.4LSTM" />
-    <option name="LAST_COMMIT_MESSAGE" value="rnn8.4LSTM" />
+    <MESSAGE value="自然语言处理9.2，神经语言模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="自然语言处理9.2，神经语言模型" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -582,16 +642,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/7.2.2.py" />
-    <entry file="file://$PROJECT_DIR$/7.3.1队列与多线程.py" />
-    <entry file="file://$PROJECT_DIR$/TFdemo/7.3.1队列与多线程.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Python/Python36/Lib/site-packages/tensorflow/python/training/coordinator.py" />
     <entry file="file://D:/Python/Python36/Lib/threading.py" />
     <entry file="file://$PROJECT_DIR$/TFdemo/7.3.1-2多线程协同管理.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -601,31 +651,10 @@
       </provider>
     </entry>
     <entry file="file://D:/Python/Python36/Lib/site-packages/tensorflow/python/ops/random_ops.py" />
-    <entry file="file://$PROJECT_DIR$/TFdemo/7.2.2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="37" column="42" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="37" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TFdemo/7.3.1-2QueueRuuner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="55" column="3" lean-forward="false" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Python/Python36/Lib/site-packages/google/protobuf/pyext/cpp_message.py" />
     <entry file="file://D:/Python/Python36/Lib/site-packages/google/protobuf/reflection.py" />
     <entry file="file://D:/Python/Python36/Lib/site-packages/tensorflow/core/example/example_pb2.py" />
     <entry file="file://D:/Python/Python36/Lib/site-packages/tensorflow/python/training/input.py" />
-    <entry file="file://$PROJECT_DIR$/TFdemo/7.2.1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TFdemo/7.3.2-2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
@@ -758,7 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21600">
           <caret line="900" column="27" lean-forward="false" selection-start-line="900" selection-start-column="19" selection-end-line="900" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12840">
           <caret line="536" column="16" lean-forward="false" selection-start-line="536" selection-start-column="16" selection-end-line="536" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -788,7 +815,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -796,9 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
-          <folding>
-            <element signature="e#46#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -806,9 +829,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="39" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#65#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -816,7 +836,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="127">
           <caret line="998" column="0" lean-forward="true" selection-start-line="998" selection-start-column="0" selection-end-line="998" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,7 +843,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="264" column="7" lean-forward="false" selection-start-line="264" selection-start-column="4" selection-end-line="264" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -832,7 +850,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="977" column="34" lean-forward="true" selection-start-line="977" selection-start-column="34" selection-end-line="977" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -840,15 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="2076" column="38" lean-forward="true" selection-start-line="2076" selection-start-column="38" selection-end-line="2076" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/tensorflow/python/ops/array_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="1030" column="38" lean-forward="false" selection-start-line="1030" selection-start-column="38" selection-end-line="1030" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -856,7 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="1318" column="0" lean-forward="true" selection-start-line="1318" selection-start-column="0" selection-end-line="1318" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +871,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="442" column="46" lean-forward="true" selection-start-line="442" selection-start-column="46" selection-end-line="442" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -872,24 +878,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="437" column="47" lean-forward="false" selection-start-line="437" selection-start-column="38" selection-end-line="437" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TFdemo/9.2.3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="186" column="36" lean-forward="true" selection-start-line="186" selection-start-column="36" selection-end-line="186" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TFdemo/9.2.3.py" />
     <entry file="file://$PROJECT_DIR$/TFdemo/9.2.3-神经语言模型.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2448">
-          <caret line="102" column="20" lean-forward="true" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
+        <state relative-caret-position="336">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="e#48#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFdemo/data/output">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFdemo/7.3.1-2QueueRuuner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="55" column="3" lean-forward="false" selection-start-line="55" selection-start-column="3" selection-end-line="55" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFdemo/data/dog1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFdemo/data/05.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/tensorflow/python/ops/image_ops_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="1490" column="67" lean-forward="false" selection-start-line="1490" selection-start-column="5" selection-end-line="1490" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/tensorflow/python/ops/array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="541" column="34" lean-forward="true" selection-start-line="541" selection-start-column="34" selection-end-line="541" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFdemo/7.2.2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="62" column="0" lean-forward="true" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#65#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TFdemo/7.2.1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-792">
+          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#46#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
